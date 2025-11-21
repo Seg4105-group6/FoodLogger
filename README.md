@@ -1,4 +1,4 @@
-# Nutrilens
+# FoodLogger
 
 ## Download
 
@@ -33,8 +33,9 @@ cd FoodLogger
    - The app will compile, install, and launch automatically
 
 3. **Configure backend connection:**
-   - For emulator: No changes needed (uses `http://10.0.2.2:8000`)
-   - For physical device: Update `BASE_URL` in `MainActivity.kt`, `HistoryActivity.kt`, and `DayDetailActivity.kt` to your computer's IP address (e.g., `http://192.168.1.100:8000`)
+   - Update `BASE_URL` in `MainActivity.kt`, `HistoryActivity.kt`, and `DayDetailActivity.kt`:
+     - For emulator: `http://10.0.2.2:8000`
+     - For physical device: Your computer's local IP (e.g., `http://192.168.1.100:8000`)
 
 ## Requirements
 
