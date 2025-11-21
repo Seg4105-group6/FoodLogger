@@ -47,7 +47,7 @@ import java.util.Date
 import java.util.Locale
 
 // AWS EC2 endpoint
-private const val BASE_URL = "http://18.219.234.57:8000/"
+private const val BASE_URL = "http://3.22.34.51:8000/"
 
 data class LogMealRequest(
     val total_calories_kcal: Double,
