@@ -30,7 +30,7 @@ import retrofit2.http.Query
 import java.text.SimpleDateFormat
 import java.util.*
 
-private const val BASE_URL = "http://10.0.2.2:8000/"
+private const val BASE_URL = "http://18.219.234.57:8000/"
 
 data class MealItemDetail(
     val label: String,

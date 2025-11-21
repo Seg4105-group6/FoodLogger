@@ -28,7 +28,7 @@ import java.io.File
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-private const val BASE_URL = "http://10.0.2.2:8000/"
+private const val BASE_URL = "http://18.219.234.57:8000/"
 
 data class HistoryRow(
     val date: String,

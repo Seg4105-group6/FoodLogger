@@ -46,8 +46,8 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-// TODO: change this to your deployed AWS HTTPS endpoint before demo.
-private const val BASE_URL = "http://10.0.2.2:8000/"
+// AWS EC2 endpoint
+private const val BASE_URL = "http://18.219.234.57:8000/"
 
 data class LogMealRequest(
     val total_calories_kcal: Double,
