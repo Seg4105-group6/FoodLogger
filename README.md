@@ -3,7 +3,7 @@
 ## Download
 
 ```bash
-git clone https://github.com/your-repo/FoodLogger.git
+git clone https://github.com/Seg4105-group6/FoodLogger.git
 cd FoodLogger
 ```
 
