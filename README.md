@@ -1,4 +1,4 @@
-# FoodLogger
+# Nutrilens
 
 ## Download
 
