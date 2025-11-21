@@ -1,11 +1,8 @@
 # FoodLogger – Visual Balanced Meal (VBM) System
 
 **Course:** SEG 4105  
-**Client:** Digital Health Inc. (TA as customer)  
+**Client:** Digital Health Inc
 **Date:** November 20, 2025
-
-🚀 **NEW: Real Machine Learning Integration!** See [ML Setup Instructions](ML_SETUP_INSTRUCTIONS.md) for details.
-
 ---
 
 ## Overview
@@ -22,50 +19,6 @@ This Proof of Concept (PoC) demonstrates:
 - ✅ Sending structured data back to the smartphone
 - ✅ Storing meal logs in a database
 - ✅ Displaying daily summaries and 7-day history
-- ✅ **NEW: Real ML-powered food detection with confidence scores**
-
----
-
-## Project Structure
-
-```
-FoodLogger/
-├── android/                    # Android app (Kotlin)
-│   ├── app/
-│   │   ├── src/main/
-│   │   │   ├── java/com/example/foodlogger/
-│   │   │   │   ├── MainActivity.kt          # Main app with Login/Capture/Results tabs
-│   │   │   │   └── HistoryActivity.kt       # 7-day history screen
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   ├── activity_main.xml
-│   │   │   │   │   ├── activity_history.xml
-│   │   │   │   │   ├── item_result_row.xml
-│   │   │   │   │   ├── item_history_row.xml
-│   │   │   │   │   └── dialog_edit_item.xml
-│   │   │   │   └── xml/file_paths.xml
-│   │   │   └── AndroidManifest.xml
-│   │   └── build.gradle.kts
-│   ├── build.gradle
-│   ├── settings.gradle.kts
-│   └── gradle.properties
-├── backend/                    # Python backend (FastAPI)
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py             # FastAPI app with endpoints
-│   │   ├── pipeline.py         # ML-powered food detection pipeline
-│   │   ├── ml_model.py         # Real ML model integration (Food101)
-│   │   └── db.py               # SQLite database models and queries
-│   ├── data/
-│   │   └── foodlogs.db         # SQLite database (auto-created)
-│   ├── requirements.txt        # All dependencies including ML libraries
-│   ├── setup_ml.py             # Optional ML setup script
-│   ├── ML_INTEGRATION.md       # ML integration documentation
-│   └── run_dev.py              # Development server script
-├── Project Charter (1).pdf     # Project charter document
-└── README.md                   # This file
-```
-
 ---
 
 ## Features
@@ -197,7 +150,7 @@ FoodLogger/
      }
      ```
 
-#### 🚀 Real ML Pipeline (NEW!)
+####  Real ML Pipeline (NEW!)
 
 The system now uses **real machine learning** for food detection:
 
@@ -384,19 +337,8 @@ This PoC demonstrates all requirements from the Project Charter:
 
 ## Team
 
-- **Project Manager:** Nicholas
+- **Project Manager:** Kyro
 - **ML Lead:** Reyaan
 - **Mobile Lead:** Jessica
-- **Backend Lead:** Kyro
+- **Backend Lead:** Nicholas
 
----
-
-## License
-
-This project is for educational purposes as part of SEG 4105 coursework.
-
----
-
-## Contact
-
-For questions or issues, please contact the team via the course TA.
