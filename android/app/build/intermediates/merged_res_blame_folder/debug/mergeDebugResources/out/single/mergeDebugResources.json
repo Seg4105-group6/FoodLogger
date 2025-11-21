@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.foodlogger.app-debug-33:/layout_activity_history.xml.flat",
+        "source": "com.example.foodlogger.app-main-35:/layout/activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\layout_activity_day_detail.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\activity_day_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\color_tab_text_color.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\color\\tab_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\layout_item_history_row.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\item_history_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\layout_item_meal_card.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\item_meal_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\layout_item_result_row.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\item_result_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\layout_dialog_edit_meal.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\dialog_edit_meal.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\drawable_tab_selector.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\drawable\\tab_selector.xml"
+    },
+    {
+        "merged": "com.example.foodlogger.app-debug-33:/layout_activity_day_detail.xml.flat",
+        "source": "com.example.foodlogger.app-main-35:/layout/activity_day_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-debug-33:\\layout_dialog_edit_item.xml.flat",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\dialog_edit_item.xml"
+    }
+]

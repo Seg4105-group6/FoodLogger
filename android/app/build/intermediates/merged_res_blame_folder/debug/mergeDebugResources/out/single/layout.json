@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-mergeDebugResources-32:\\layout\\item_result_row.xml",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\item_result_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-mergeDebugResources-32:\\layout\\item_meal_card.xml",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\item_meal_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-mergeDebugResources-32:\\layout\\activity_day_detail.xml",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\activity_day_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-mergeDebugResources-32:\\layout\\item_history_row.xml",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\item_history_row.xml"
+    },
+    {
+        "merged": "com.example.foodlogger.app-mergeDebugResources-32:/layout/activity_history.xml",
+        "source": "com.example.foodlogger.app-main-35:/layout/activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-mergeDebugResources-32:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-mergeDebugResources-32:\\layout\\dialog_edit_meal.xml",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\dialog_edit_meal.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-mergeDebugResources-32:\\layout\\activity_history.xml",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "com.example.foodlogger.app-mergeDebugResources-32:/layout/activity_day_detail.xml",
+        "source": "com.example.foodlogger.app-main-35:/layout/activity_day_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-mergeDebugResources-32:\\layout\\dialog_edit_item.xml",
+        "source": "C:\\Users\\kyro\\.gradle\\daemon\\8.10\\com.example.foodlogger.app-main-35:\\layout\\dialog_edit_item.xml"
+    }
+]

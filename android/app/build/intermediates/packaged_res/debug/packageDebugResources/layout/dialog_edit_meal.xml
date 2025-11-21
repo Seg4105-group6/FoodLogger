@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Meal Log"
+        android:textAppearance="@style/TextAppearance.App.Headline2"
+        android:layout_marginBottom="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.App.TextInputLayout"
+        android:hint="Total Calories"
+        android:layout_marginBottom="16dp"
+        app:prefixText="🔥 "
+        app:suffixText=" kcal">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editMealCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MACRONUTRIENTS"
+        android:textAppearance="@style/TextAppearance.App.Label"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.App.TextInputLayout"
+        android:hint="Protein"
+        android:layout_marginBottom="12dp"
+        app:prefixText="💪 "
+        app:suffixText=" g">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editMealProtein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.App.TextInputLayout"
+        android:hint="Carbohydrates"
+        android:layout_marginBottom="12dp"
+        app:prefixText="🌾 "
+        app:suffixText=" g">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editMealCarbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.App.TextInputLayout"
+        android:hint="Fat"
+        android:layout_marginBottom="16dp"
+        app:prefixText="🥑 "
+        app:suffixText=" g">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editMealFat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/buttonCancelMeal"
+            style="@style/Widget.App.Button.Ghost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/buttonSaveMeal"
+            style="@style/Widget.App.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save Changes"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,343 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:34:9-42:20
+	android:grantUriPermissions
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:38:13-47
+	android:authorities
+		INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:36:13-64
+	android:exported
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:35:13-62
+manifest
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:1:1-46:12
+MERGED from [androidx.databinding:viewbinding:8.5.0] C:\Users\kyro\.gradle\caches\8.10\transforms\05ae688dfdad8e57e74ea4526dd59a16\transformed\jetified-viewbinding-8.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kyro\.gradle\caches\8.10\transforms\3773c0fb89d3032ff342b65333d4db6b\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kyro\.gradle\caches\8.10\transforms\f8834e951998a6f7b9c4bddf63010325\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\kyro\.gradle\caches\8.10\transforms\8429981c86c3df0a1ebc6655d49434b3\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\kyro\.gradle\caches\8.10\transforms\0e76c743db20f6d4a699c97b3200e028\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\90617b6b299a2d7feb3a0a991bfe279e\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5934d3eea9ca8f436962ab9ec58303a4\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\kyro\.gradle\caches\8.10\transforms\b3d2ab303003227b791a4a5edc5687e7\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\kyro\.gradle\caches\8.10\transforms\8ff4979c31dc196e37757a3d5b668512\transformed\jetified-activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\cb1ebc92cb7a1ca57f1f3c6673804f81\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\7e46dabcdceabaaaed762a7f7df699fe\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5caf2b4962af496ec74d01d93a37d354\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\810d7ccb788cc36eac3be3b5ab0f9c04\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\2a97c2d83b6c36435e7b6ad597d51af2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5cb69304f4892667dec5ee7ba724eb31\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f148aa7168a3aebaf8c943b0d3b2b656\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\cb335ac3a7366ce5847485f217392362\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5458375fed31f4e75d306b6db2d34d2a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\6a9420ca07961a4050ba8c1f8a6b18b6\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\9717c9f53449c9bac30537232602fbd0\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kyro\.gradle\caches\8.10\transforms\5610959cb180a29ed780721c4a7d2c7c\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\8f79b2b2b42bb7b339c7ecf652a9cc1d\transformed\jetified-lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\e2838ed644da19f9a10f62300fd8e776\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\75b84b201af3edb280fd6fbf1785550f\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\38317ffe8758ba596e93db9906cce525\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\4c4b628be2dfd196fd5943ac0b09822e\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\8b8fa97df278229ce6bf88e2383684b4\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\c332892a60dc12151174fc23955cef68\transformed\jetified-lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\f292b053386823fc373f30a6b1ccce73\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\9518722c9404f588f53333a6cdba0216\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\kyro\.gradle\caches\8.10\transforms\9059650e84bf2df0ae6e98b27d625c89\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\b254c998dbd07ba08174023c15f7dac2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\41e5509ffb0943d65abf4dd94d8c5ad0\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f7f8567153a2d7b95bc1127c46c98222\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\d5c3a36cf0e694de3ee150b0ae5aaddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\6532ef882bde8d1ee725c578d611605d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\7758dd4f79885b7cc6ef529a188d4b0e\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\6c8f4f1568f1c7ac2d55e5fcc5c98875\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\44fa91d76a5646e5f8d3ab49727b2fca\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\406aa3f6258fece5451dc62e78eae7e3\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kyro\.gradle\caches\8.10\transforms\ff5455ebb6a19170f5c7bfde7bfc2910\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:3:5-65
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:3:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:5:5-6:38
+	android:maxSdkVersion
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:6:9-35
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:5:22-78
+application
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:8:5-44:19
+INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:8:5-44:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kyro\.gradle\caches\8.10\transforms\3773c0fb89d3032ff342b65333d4db6b\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kyro\.gradle\caches\8.10\transforms\3773c0fb89d3032ff342b65333d4db6b\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kyro\.gradle\caches\8.10\transforms\f8834e951998a6f7b9c4bddf63010325\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kyro\.gradle\caches\8.10\transforms\f8834e951998a6f7b9c4bddf63010325\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\d5c3a36cf0e694de3ee150b0ae5aaddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\d5c3a36cf0e694de3ee150b0ae5aaddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\6532ef882bde8d1ee725c578d611605d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\6532ef882bde8d1ee725c578d611605d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:11:9-35
+	android:roundIcon
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:14:9-48
+	android:usesCleartextTraffic
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:15:9-44
+activity#com.example.foodlogger.MainActivity
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:17:9-24:20
+	android:exported
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.foodlogger.HistoryActivity
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:27:13-44
+activity#com.example.foodlogger.DayDetailActivity
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:31:13-46
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:39:13-41:54
+	android:resource
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:41:17-51
+	android:name
+		ADDED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml:40:17-67
+uses-sdk
+INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.5.0] C:\Users\kyro\.gradle\caches\8.10\transforms\05ae688dfdad8e57e74ea4526dd59a16\transformed\jetified-viewbinding-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.0] C:\Users\kyro\.gradle\caches\8.10\transforms\05ae688dfdad8e57e74ea4526dd59a16\transformed\jetified-viewbinding-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kyro\.gradle\caches\8.10\transforms\3773c0fb89d3032ff342b65333d4db6b\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kyro\.gradle\caches\8.10\transforms\3773c0fb89d3032ff342b65333d4db6b\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kyro\.gradle\caches\8.10\transforms\f8834e951998a6f7b9c4bddf63010325\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\kyro\.gradle\caches\8.10\transforms\f8834e951998a6f7b9c4bddf63010325\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\kyro\.gradle\caches\8.10\transforms\8429981c86c3df0a1ebc6655d49434b3\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\kyro\.gradle\caches\8.10\transforms\8429981c86c3df0a1ebc6655d49434b3\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\kyro\.gradle\caches\8.10\transforms\0e76c743db20f6d4a699c97b3200e028\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\kyro\.gradle\caches\8.10\transforms\0e76c743db20f6d4a699c97b3200e028\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\90617b6b299a2d7feb3a0a991bfe279e\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\90617b6b299a2d7feb3a0a991bfe279e\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5934d3eea9ca8f436962ab9ec58303a4\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5934d3eea9ca8f436962ab9ec58303a4\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\kyro\.gradle\caches\8.10\transforms\b3d2ab303003227b791a4a5edc5687e7\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\kyro\.gradle\caches\8.10\transforms\b3d2ab303003227b791a4a5edc5687e7\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\kyro\.gradle\caches\8.10\transforms\8ff4979c31dc196e37757a3d5b668512\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\kyro\.gradle\caches\8.10\transforms\8ff4979c31dc196e37757a3d5b668512\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\cb1ebc92cb7a1ca57f1f3c6673804f81\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\cb1ebc92cb7a1ca57f1f3c6673804f81\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\7e46dabcdceabaaaed762a7f7df699fe\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\7e46dabcdceabaaaed762a7f7df699fe\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5caf2b4962af496ec74d01d93a37d354\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5caf2b4962af496ec74d01d93a37d354\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\810d7ccb788cc36eac3be3b5ab0f9c04\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\810d7ccb788cc36eac3be3b5ab0f9c04\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\2a97c2d83b6c36435e7b6ad597d51af2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\2a97c2d83b6c36435e7b6ad597d51af2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5cb69304f4892667dec5ee7ba724eb31\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5cb69304f4892667dec5ee7ba724eb31\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f148aa7168a3aebaf8c943b0d3b2b656\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f148aa7168a3aebaf8c943b0d3b2b656\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\cb335ac3a7366ce5847485f217392362\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\cb335ac3a7366ce5847485f217392362\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5458375fed31f4e75d306b6db2d34d2a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\5458375fed31f4e75d306b6db2d34d2a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\6a9420ca07961a4050ba8c1f8a6b18b6\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\6a9420ca07961a4050ba8c1f8a6b18b6\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\9717c9f53449c9bac30537232602fbd0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\kyro\.gradle\caches\8.10\transforms\9717c9f53449c9bac30537232602fbd0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kyro\.gradle\caches\8.10\transforms\5610959cb180a29ed780721c4a7d2c7c\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kyro\.gradle\caches\8.10\transforms\5610959cb180a29ed780721c4a7d2c7c\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\8f79b2b2b42bb7b339c7ecf652a9cc1d\transformed\jetified-lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\8f79b2b2b42bb7b339c7ecf652a9cc1d\transformed\jetified-lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\e2838ed644da19f9a10f62300fd8e776\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\e2838ed644da19f9a10f62300fd8e776\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\75b84b201af3edb280fd6fbf1785550f\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\75b84b201af3edb280fd6fbf1785550f\transformed\jetified-lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\38317ffe8758ba596e93db9906cce525\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\38317ffe8758ba596e93db9906cce525\transformed\jetified-lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\4c4b628be2dfd196fd5943ac0b09822e\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\4c4b628be2dfd196fd5943ac0b09822e\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\8b8fa97df278229ce6bf88e2383684b4\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\8b8fa97df278229ce6bf88e2383684b4\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\c332892a60dc12151174fc23955cef68\transformed\jetified-lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\c332892a60dc12151174fc23955cef68\transformed\jetified-lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\f292b053386823fc373f30a6b1ccce73\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\f292b053386823fc373f30a6b1ccce73\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\9518722c9404f588f53333a6cdba0216\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\9518722c9404f588f53333a6cdba0216\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\kyro\.gradle\caches\8.10\transforms\9059650e84bf2df0ae6e98b27d625c89\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\kyro\.gradle\caches\8.10\transforms\9059650e84bf2df0ae6e98b27d625c89\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\b254c998dbd07ba08174023c15f7dac2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\b254c998dbd07ba08174023c15f7dac2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\41e5509ffb0943d65abf4dd94d8c5ad0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\41e5509ffb0943d65abf4dd94d8c5ad0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f7f8567153a2d7b95bc1127c46c98222\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f7f8567153a2d7b95bc1127c46c98222\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\d5c3a36cf0e694de3ee150b0ae5aaddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\d5c3a36cf0e694de3ee150b0ae5aaddb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\6532ef882bde8d1ee725c578d611605d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\6532ef882bde8d1ee725c578d611605d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\7758dd4f79885b7cc6ef529a188d4b0e\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\7758dd4f79885b7cc6ef529a188d4b0e\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\6c8f4f1568f1c7ac2d55e5fcc5c98875\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\6c8f4f1568f1c7ac2d55e5fcc5c98875\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\44fa91d76a5646e5f8d3ab49727b2fca\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\44fa91d76a5646e5f8d3ab49727b2fca\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\406aa3f6258fece5451dc62e78eae7e3\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kyro\.gradle\caches\8.10\transforms\406aa3f6258fece5451dc62e78eae7e3\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kyro\.gradle\caches\8.10\transforms\ff5455ebb6a19170f5c7bfde7bfc2910\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kyro\.gradle\caches\8.10\transforms\ff5455ebb6a19170f5c7bfde7bfc2910\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kyro\Desktop\seg4105\FoodLogger\android\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\6532ef882bde8d1ee725c578d611605d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kyro\.gradle\caches\8.10\transforms\6532ef882bde8d1ee725c578d611605d\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kyro\.gradle\caches\8.10\transforms\f3877037dd58f2ce186cdf74ac938fbb\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.example.foodlogger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.foodlogger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\kyro\.gradle\caches\8.10\transforms\a313355b9ed7bc88e2f1981332020d3d\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\kyro\.gradle\caches\8.10\transforms\abd6dda64622c82f0063374ff428e024\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\kyro\.gradle\caches\8.10\transforms\c02507aa73cb3af21988dfd70b3d36d9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:text="Nov 19"
+        android:textSize="14sp"
+        android:textColor="@color/text_primary"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/textMeals"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textKcal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:text="1850"
+        android:textSize="14sp"
+        android:textColor="@color/primary"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="end" />
+
+    <TextView
+        android:id="@+id/textProtein"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="120"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="end" />
+
+    <TextView
+        android:id="@+id/textCarbs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="180"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="end" />
+
+    <TextView
+        android:id="@+id/textFat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="60"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="end" />
+</LinearLayout>

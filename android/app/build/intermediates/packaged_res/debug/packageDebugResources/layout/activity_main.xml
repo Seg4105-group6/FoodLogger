@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <!-- Professional Header -->
+    <LinearLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/primary"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:gravity="center_vertical"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Food Logger"
+            android:textSize="20sp"
+            android:textColor="@color/text_on_primary"
+            android:fontFamily="sans-serif-medium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HISTORY"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:backgroundTint="#10B981"
+                android:visibility="visible"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/buttonSignOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGN OUT"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:backgroundTint="#EF4444"
+                android:visibility="visible"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Tab Navigation -->
+    <LinearLayout
+        android:id="@+id/layoutTabs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/surface"
+        android:elevation="2dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/buttonTabLogin"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="LOGIN"
+            android:textSize="13sp"
+            android:textColor="@color/tab_text_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:background="@drawable/tab_selector"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/buttonTabCapture"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="CAPTURE"
+            android:textSize="13sp"
+            android:textColor="@color/tab_text_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:background="@drawable/tab_selector"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/buttonTabResults"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="RESULTS"
+            android:textSize="13sp"
+            android:textColor="@color/tab_text_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:background="@drawable/tab_selector"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <!-- Content Container -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/layoutTabs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="24dp">
+
+            <!-- Login Screen -->
+            <LinearLayout
+                android:id="@+id/layoutLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="24dp"
+                android:visibility="visible">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.App.CardView"
+                    android:layout_marginTop="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Welcome Back"
+                            android:textAppearance="@style/TextAppearance.App.Headline2"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sign in to continue tracking your meals"
+                            android:textAppearance="@style/TextAppearance.App.Caption"
+                            android:layout_marginBottom="24dp" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/Widget.App.TextInputLayout"
+                            android:hint="Email"
+                            android:layout_marginBottom="16dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editEmail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textEmailAddress"
+                                android:text="user@example.com"
+                                android:textSize="15sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/Widget.App.TextInputLayout"
+                            android:hint="Password"
+                            android:layout_marginBottom="24dp"
+                            app:endIconMode="password_toggle">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editPassword"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPassword"
+                                android:text="password"
+                                android:textSize="15sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <Button
+                            android:id="@+id/buttonLogin"
+                            style="@style/Widget.App.Button.Primary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sign In"
+                            android:layout_marginBottom="12dp" />
+
+                        <Button
+                            android:id="@+id/buttonExportLogin"
+                            style="@style/Widget.App.Button.Ghost"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="📥 Export PNG" />
+
+                        <TextView
+                            android:id="@+id/textLoginHint"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Demo auth: clicking 'Sign in' sets a fake token"
+                            android:textAppearance="@style/TextAppearance.App.Caption"
+                            android:layout_marginTop="16dp"
+                            android:padding="12dp"
+                            android:background="@color/surface_variant"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <!-- Capture Screen -->
+            <LinearLayout
+                android:id="@+id/layoutCapture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.App.CardView"
+                    android:layout_marginTop="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Capture Your Meal"
+                            android:textAppearance="@style/TextAppearance.App.Headline2"
+                            android:layout_marginBottom="8dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Take a photo or import an existing image"
+                            android:textAppearance="@style/TextAppearance.App.Caption"
+                            android:layout_marginBottom="20dp" />
+
+                        <!-- Image Preview Card -->
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="1dp"
+                            app:strokeColor="@color/border"
+                            android:layout_marginBottom="20dp">
+
+                            <ImageView
+                                android:id="@+id/imagePreview"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:background="@color/surface_variant"
+                                android:contentDescription="Food preview" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <!-- Action Buttons -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <Button
+                                android:id="@+id/buttonCapture"
+                                style="@style/Widget.App.Button.Primary"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="📸 Capture"
+                                android:layout_marginEnd="8dp" />
+
+                            <Button
+                                android:id="@+id/buttonImport"
+                                style="@style/Widget.App.Button.Secondary"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="📁 Import"
+                                android:layout_marginStart="8dp" />
+                        </LinearLayout>
+
+                        <!-- Analyze Button (shown after capture/import) -->
+                        <Button
+                            android:id="@+id/buttonAnalyzeMeal"
+                            style="@style/Widget.App.Button.Success"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="🔍 Analyze Meal"
+                            android:layout_marginTop="16dp"
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/buttonExportCapture"
+                            style="@style/Widget.App.Button.Ghost"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="📥 Export PNG"
+                            android:layout_marginTop="8dp" />
+
+                        <!-- Tips Card -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@color/surface_variant"
+                            android:padding="16dp"
+                            android:layout_marginTop="16dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="💡 Pro Tips"
+                                android:textAppearance="@style/TextAppearance.App.Label"
+                                android:layout_marginBottom="8dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="• Use overhead angle for best results\n• Ensure good, neutral lighting\n• Capture the entire meal in frame"
+                                android:textAppearance="@style/TextAppearance.App.Caption"
+                                android:lineSpacingExtra="4dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <!-- Results Screen -->
+            <LinearLayout
+                android:id="@+id/layoutResults"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <!-- Image Preview -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageResult"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Result preview" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Summary Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.App.CardView"
+                    android:layout_marginBottom="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Meal Summary"
+                            android:textAppearance="@style/TextAppearance.App.Headline2"
+                            android:layout_marginBottom="16dp" />
+
+                        <TextView
+                            android:id="@+id/textTotals"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Totals will appear here"
+                            android:textAppearance="@style/TextAppearance.App.Body"
+                            android:lineSpacingExtra="6dp"
+                            android:padding="16dp"
+                            android:background="@color/surface_variant" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No analyses yet"
+                            android:textAppearance="@style/TextAppearance.App.Caption"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Action Buttons -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="16dp">
+
+                    <Button
+                        android:id="@+id/buttonLogMeal"
+                        style="@style/Widget.App.Button.Success"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="✓ Log Meal"
+                        android:layout_marginEnd="8dp" />
+
+                    <Button
+                        android:id="@+id/buttonDiscardMeal"
+                        style="@style/Widget.App.Button.Error"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="✗ Discard"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <!-- Item Management -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="16dp">
+
+                    <Button
+                        android:id="@+id/buttonAddItem"
+                        style="@style/Widget.App.Button.Secondary"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="+ Add Item"
+                        android:layout_marginEnd="8dp" />
+
+                    <Button
+                        android:id="@+id/buttonDeleteSelected"
+                        style="@style/Widget.App.Button.Ghost"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="🗑 Delete Selected"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <!-- Items List Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.App.CardView"
+                    android:layout_marginBottom="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Detected Items (tap to edit)"
+                            android:textAppearance="@style/TextAppearance.App.Headline2"
+                            android:layout_marginBottom="12dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tap any item to edit details. Use checkboxes to select items for deletion."
+                            android:textAppearance="@style/TextAppearance.App.Caption"
+                            android:layout_marginBottom="16dp" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recyclerResults"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:nestedScrollingEnabled="false" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <Button
+                    android:id="@+id/buttonExportResults"
+                    style="@style/Widget.App.Button.Ghost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="📥 Export PNG" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
